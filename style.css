@@ -1,0 +1,83 @@
+.calculator {
+    width: 350px;
+    height: 500px;
+    border: 1px solid ;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  /* 계산기몸통 */
+  .calculator{
+    background-color: #fff59d;
+    border-radius: 15px;
+  }
+
+/* 계산화면 parent */
+.calculator__screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 300px;
+    height: 70px;
+    margin: 30px 20px;
+    background-color: aliceblue;
+}
+
+/* 계산화면 child*/
+.main__screen{
+    font-size: x-large;
+  
+}
+
+
+/* 계산버튼 parent */
+.container__btn{
+  margin-top: 140px;
+  
+}
+.calculator__btn{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+  
+}
+
+/* 계산버튼 child */
+button {
+  color: aliceblue;
+  background-color: #424242;
+  width: 65px;
+  height: 60px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+/* ON,AC 버튼 선택 셀렉터 */
+.clear, .powerOn {
+  background-color: #d84315;
+}
+
+/* 연산자버튼 */
+.operator {
+  background-color: #7cb342;
+}
+
+/* 0버튼 크기 */
+#zero{
+  width: 158px;
+  height: 60px;
+}
+
+/* 버튼 마우스 올릴시 색변경 */
+button:hover {
+  background-color: #bdbdbd;
+}
